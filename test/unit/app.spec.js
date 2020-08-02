@@ -19,6 +19,7 @@ describe('Stage App Component', () => {
       expect(view.textContent.trim()).toBe('Hello World!');
       done();
     }).catch(e => {
+      // eslint-disable-next-line no-undef
       fail(e);
       done();
     });
